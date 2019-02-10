@@ -2,14 +2,14 @@
 #include <time.h>
 #include <stdlib.h>
 #include "string_matching.h"
-
+/*
 void print_array(int *arr, int size){
   for (int i=0; i<size; i++){
     printf("%d ",arr[i]);
   }
   printf("\n");
 }
-
+*/
 void short_test (char *text, int N, char * pattern, int M){
 	printf("text='%s', pattern='%s'\n", text, pattern);
 	int result1 = string_matching_naive(text, N, pattern, M);
